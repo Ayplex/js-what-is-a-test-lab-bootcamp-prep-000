@@ -1,6 +1,6 @@
 var name = "Susan"
-var height = 40
-var message = ` is ${height} inches tall`
+var height = 70
+var message = `${name} is ${height} inches tall`
 
 module.exports = {name, height, message}
-console.log(parseInt(height)- 30)
+console.log(height- 30)
